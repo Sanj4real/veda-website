@@ -1,0 +1,311 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: block;
+	font-family: sans-serif;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src: url('Fonts/AvenirLTStd-Book.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirLTStd-BookOblique';
+  src: url('Fonts/AvenirLTStd-BookOblique.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src: url('Fonts/AvenirLTStd-Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirLTStd-LightOblique';
+  src: url('Fonts/AvenirLTStd-LightOblique.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src: url('Fonts/AvenirLTStd-MediumOblique.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirLTStd-Oblique';
+  src: url('Fonts/AvenirLTStd-Oblique.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src: url('Fonts/AvenirLTStd-Roman.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: url('Fonts/AvenirNext-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face
+{
+	  font-family: 'AvenirNext-DemiBold';
+	  src: url('Fonts/AvenirNext-DemiBold.ttf') format('truetype');
+	  font-weight: normal;
+	  font-style: normal;
+}
+@font-face
+{
+	  font-family: 'AvenirNextCyr-Demi';
+	  src: url('Fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+	  font-weight: normal;
+	  font-style: normal;
+}
+@font-face
+{
+	  font-family: 'AvenirNextCyr-Bold';
+	  src: url('Fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+	  font-weight: normal;
+	  font-style: normal;
+}
+@font-face
+{
+	  font-family: 'AvenirNextCyr-Medium';
+	  src: url('Fonts/AvenirNextCyr-Medium.ttf') format('truetype');
+	  font-weight: normal;
+	  font-style: normal;
+}
+@font-face
+{
+	  font-family: 'AvenirNextCyr-Regular';
+	  src: url('Fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+	  font-weight: normal;
+	  font-style: normal;
+}
+
+a
+{
+	text-decoration: none;
+    transition:all 0.4s ease;
+}
+a:hover
+{
+    text-decoration:none !important;
+}
+
+li
+{
+	list-style: none;
+}
+p
+{
+	font-family: 
+}
+h1
+{
+	font-family: 'AvenirNextCyr-Bold';	
+}
+
+
+/*__________________________header______________________*/
+.site-header
+{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(to right,#ed4554,#5400ff)/*,url('img/school-client-logo/products-bg.png')*/;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.navbar
+{
+	/*background: #cccc;*/
+}
+.navbar .nav-item
+{		
+	padding:0 10px;	
+}
+.navbar .nav-item .nav-link
+{
+	font-family: 'AvenirNextCyr-Demi';
+	font-size: 16px;
+	color: #fff !important;
+	text-transform: capitalize;
+	letter-spacing: .5px;
+	float: right;
+	text-align: left;
+}
+.navbar .nav-item:last-child .nav-link{
+	color: #fff;
+	padding: 6px 31px;
+	border: 2px solid #fff;
+	border-radius: 24px;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+/*___________________________________homeSlider___________________________________*/
+
+	.homeSlider
+	{
+		padding-top: 10%;
+	}
+	.homeSlider .slider-content h1
+	{
+		font-size: 42px;
+		color: #233d63 !important;
+		font-weight: 600;
+		line-height: 51px;
+		width: 478px;
+
+	}
+	.homeSlider .slider-content p
+	{
+       line-height: 1.8em;
+	   font-size: 15px;
+	   letter-spacing: 0.5px;
+	   margin-top: 14px;
+	}
+	.homeSlider .slider-button
+	{
+		margin-top: 52px;
+	}
+	.homeSlider .slider-button .button
+	{
+		color: #fff;
+		font-size: 0.9rem
+	}
+
+	.homeSlider .slider-button .btn-first
+	{
+		background: #ed4554 !important;
+		opacity: .9;
+		border-radius: 24px;
+		padding: 14px 27px !important;
+		margin-right: 20px;
+		box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)
+	}
+	.homeSlider .slider-button .btn-second
+	{
+		color: #ed4554;
+		background: transparent;
+	}
+
+	.fa-arrow-right
+	{
+		color: #ed4554;
+		font-size: 30px;
+
+	}
+	/*___________________________Client-vedas___________________________*/
+
+	#client-vedas
+	{
+		height: auto;
+		width: 100%;
+		padding: 80px 0 50px;
+	}
+	.client-block
+	{
+		margin-top: 2.5rem;
+	}
+	.client-block .container
+	{
+		display: flex;
+		justify-content: space-around;
+
+	}
+	.client-block .container .client-class
+	{
+		padding: 35px 0 10px;
+		width: 19%;
+	}
+	.client-block img
+	{
+		height: 80px;
+		width: 80px;
+	}
+	.client-block .client-class:nth-child(2) img
+	{
+		width: 103px;
+	}
+
+	.client-details-block h2
+	{
+		font-size: 22px;
+		font-weight: 600;
+		color: #233d63;
+	}
+	.client-block .client-class p
+	{
+		font-size: 14px;
+		margin-top: 15px;
+		letter-spacing: .5px;
+	}
+/*_____________________________products-vedas_______________________________________*/
+
+	#products-vedas
+	{
+		height: auto;
+		width: 100%;
+		padding: 30px 0 50px;
+	}
+	.product-details-block p
+	{
+		font-family: 'AvenirNextCyr-Medium';
+		margin: 13px auto;
+		color: #ffaf30;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	#products-vedas h1
+	{
+		color: #233d63;
+		font-weight: 600;
+		letter-spacing: .6px;
+		font-size: 40px;
+	}
+	.switch-button
+	{
+		margin: 55px 0;
+	}
+	.switch-button a
+	{
+		margin: 10px 24px;
+		font-weight: 600;
+		color: #ccc ;
+		cursor: pointer;
+	}
+	.switch-button a:nth-child(1)
+	{
+		padding: 16px 40px;
+		border: 1px solid #fff;
+		border-radius: 24px;
+		box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+		color: #007bff;
+
+	}
+	.tab
+	{
+		border: 2px solid #ccc;
+		margin: 0px 298px 0 317px;
+		padding: 28px 5px;
+		border-radius: 24px;
+		position: relative;
+		bottom: 96px;
+	}
+
