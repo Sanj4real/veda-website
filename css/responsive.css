@@ -1,0 +1,460 @@
+
+@media(min-width: 320px) and (max-width: 480px)
+	{
+		h1
+		{
+			font-size: 1.5rem ;
+		}
+		h2
+		{
+			font-size: 20px ;
+		}
+		h3
+		{
+			font-size: 17px ;
+		}
+		h4
+		{
+			font-size: 15px ;
+		}
+		h5
+		{
+			font-size: 13px ;
+		}
+		p
+		{
+			font-size: 13px ;
+		}
+		.fa
+		{
+			font-size: 16px!important
+		}
+
+		.feature-vedas .group-1 h4,.trusted-vedas h4,.e-learning-vedas h4,.video-vedas h4,.case-vedas h4,.testimonial-vedas h4,.faq-vedas h4
+		{
+			margin: 10px auto;
+		}
+		.feature-vedas .group-1 h2,.trusted-vedas h2,.e-learning-vedas h2,.video-vedas h2,.case-vedas h2,.testimonial-vedas h2
+		{
+			padding: 10px 0px;
+			margin: 0px;
+		}
+		.e-learning-vedas .learning-img, .trusted-vedas .trusted-img
+		{
+			height: 75px
+		}
+
+		/*____________________________________header_____________________________________*/
+			
+			.site-header .container-fluid
+			{
+				padding: 0 !important;
+			}
+			.site-header .navbar a
+			{
+				margin: 0;
+			}
+			.navbar .navbar-brand img
+			{
+				width: 80px
+			}
+			.navbar .navbar-collapse
+			{
+				background: #fff;
+				position: static;
+				padding: 0;
+				margin: 0;
+			}
+			.navbar .navbar-collapse ul
+			{
+				padding: 1rem 0;
+			}
+			.navbar .navbar-collapse ul li
+			{
+				margin: 0 1.5rem;
+				border-bottom: 1px solid #eee;
+			}
+			.navbar .navbar-collapse ul li:last-child
+			{
+				border-bottom: none;
+			}
+			.navbar .navbar-collapse ul li a
+			{
+				color: #233d63 !important;
+				float: left !important;
+			}
+			.navbar .navbar-collapse ul li:last-child a
+			{
+				padding: .5rem 0rem !important;
+				border: none!important;
+				border-radius: none!important;
+			}
+
+			/*______________________________________home-banner_________________________________________*/
+			
+
+			.banner-curve
+			{
+				height: 75%;
+			}
+			.banner-content 
+			{
+				padding: 6rem 0 0;
+			}
+			.banner-content img
+			{
+				display: none;
+			}
+			.homeBanner .slider-content h1
+			{
+				width: auto;
+				line-height: 2.2rem;
+			}
+			.homeBanner .slider-content p
+			{
+				font-size: 1.2rem;
+				line-height: 1.625rem;
+				margin: 0 0 2rem;
+				/*text-align: justify;*/
+			}
+			.homeBanner .slider-button
+			{
+				margin: 0;
+			}
+			.homeBanner .sec-vertical-scroll-top
+			{
+				right: 20px;
+				bottom: 0;
+
+			}
+
+			.sec-vertical-scroll-top .scroll-top li
+			{
+				font-size: 14px;
+			}
+
+			.nav-tabs
+			{
+				margin: 0;
+			}
+		
+		/*___________________________Client-vedas___________________________*/
+			#client-vedas
+			{
+				padding: 80px 0 0px;
+			}
+			.client-block
+			{
+				margin-top: 1.5rem
+			}
+			.client-block .client-class
+			{
+				padding: 13px 0 7px;
+				width: 100%;
+			}
+			.client-block .client-class img
+			{
+				height: 67px;
+				width: 67px;
+			}
+			.client-block .client-class:nth-child(2) img
+			{
+				width: 88px;
+				height: 60px;
+			}
+			.client-block .client-class p
+			{
+				font-size: 13px;
+				margin: 13px 0;
+			}
+		/*____________________________product-vedas______________________________*/
+			#products-vedas
+			{
+				padding: 30px 0 0px;
+			}
+			#products-vedas::before
+			{
+				top: 4rem;
+				left: 1px;
+				height: 23rem;
+				width: 7rem
+			}
+			.product-img
+			{
+				height: 86px;
+			}
+			.product-vedas h4
+			{
+				margin: 10px auto;
+			}
+			.switch-button
+			{
+				margin-top: 30px
+			}
+			.switch-button ul li .active
+			{
+				padding: 10px 27px;
+				font-size: 14px;
+			}
+			.switch-button ul li a
+			{
+				font-size: 14px;
+				padding: 10px 27px;
+			}
+			.switch-button .tab-content
+			{
+				margin-top: 36px;
+			}
+			.nav-tabs
+			{
+				padding: 3px 7px;
+			}
+			.div-2
+			{
+				margin: 20px 0 0;
+				padding: 0;
+			}
+			.switch-button .tab-content .tab-pane p
+			{
+				padding: 15px 8px;
+			}
+		/*_________________________________feature-vedas___________________*/
+			.feature-vedas
+			{
+				padding: 30px 0 0;
+				text-align: center;
+			}
+			.feature-vedas .group-1
+			{
+				margin-top: 0;
+				padding: 10px 15px
+			}
+			.feature-vedas .group-1 p
+			{
+				margin: 7px 0px;
+				text-align: justify;
+				padding: 10px 12px;
+			}
+			.explore a
+			{
+				font-size: 14px;
+			}
+			.explore a i
+			{
+				font-size: 14px !important
+			}
+			.feature-vedas .group-1>i
+			{
+				margin: 0px auto;
+			}
+			.feature-vedas .group-2 .feature-div
+			{
+				top: 0px;
+			}
+		/*______________________________________trusted-vedas____________________________*/
+			.trusted-vedas
+			{
+				padding: 30px 0 0;
+			}
+			.trusted-vedas .container
+			{
+				margin-top: 0;
+			}
+			.trusted-vedas figure img
+			{
+				display: none;
+			}
+			.trusted-vedas .div-2
+			{
+				text-align: center;
+			}
+			.trusted-vedas .container .row .col-lg-6>p
+			{
+				margin: 9px 18px;
+				text-align: justify;
+			}
+			.trusted-vedas .trusted-content
+			{
+				text-align: justify;
+			}
+		/*________________________________e-learning-vedas________________________________*/
+			.e-learning-vedas
+			{
+				padding: 30px 0 0 ;
+				text-align: center;
+			}
+			.e-learning-vedas .group-1
+			{
+				padding: 10px 15px;
+			}
+			.e-learning-vedas p
+			{
+				padding: 10px 12px;
+				margin: 7px 0;
+				text-align: justify;
+			}
+			.e-learning-vedas i
+			{
+				height: 40px;
+				width: 40px
+			}
+			.e-learning-vedas .row .col-lg-6:last-child
+			{
+				display: none;
+			}
+
+		/*__________________________________video-vedas______________________________*/
+			.video-vedas
+			{
+				padding: 30px 0 0;
+				text-align: center;
+			}
+			.video-vedas .row .col-lg-6:first-child
+			{
+				display: none;
+			}
+			.video-vedas .div-2
+			{
+				padding: 10px 15px
+			}
+			.video-vedas .div-2>i
+			{
+				margin: 0px auto
+			}
+			.video-vedas .div-2 p
+			{
+				padding: 10px 12px ;
+				margin: 7px 0;
+				text-align: justify;
+			}
+			.video-vedas .div-2>a>i
+			{
+				height: 40px;
+				width: 40px
+			}
+		/*_______________________________case-vedas__________________________________*/
+			.case-vedas
+			{
+				padding: 30px 0 0;
+			}
+			.case-info .case-div
+			{
+				width: 100%;
+				padding: 30px 10px 
+			}
+		/*____________________________testimonial-vedas______________________________*/
+			.testimonial-vedas
+			{
+				padding: 30px 0 0;
+			}
+			.testimonial-vedas::before
+			{
+				background: none
+			}
+			.testimonial-vedas img
+			{
+				height: 67px
+			}
+			.testimonial-details-wrap
+			{
+				padding: 0;
+				margin-top: 45px
+			}
+			.feedback-content
+			{
+				padding: 1.5rem 1rem 1rem;
+			}
+		/*________________________FAQ-vedas_________________________________________________*/
+			.faq-vedas
+			{
+				padding: 80px 0 0;
+			}
+			.faq-vedas h5
+			{
+				margin-bottom: 3rem;
+			}
+			.faq-accordion
+			{
+				margin-bottom: 25px;
+				padding: 15px 16px;
+			}
+			.faq-accordion a
+			{
+				font-size: 18px;
+			}
+			.faq-vedas>.container>span>a>i
+			{
+				bottom: -3rem;
+			}
+		/*_______________________________get-started_____________________________________*/
+
+			.get-vedas
+			{
+				padding: 30px 0 30px 
+			}
+			.get-vedas::before
+			{
+				background: none
+			}
+			.get-content
+			{
+				text-align: center;
+			}
+			.get-button
+			{
+				margin: 51px 0 0 0;
+			}
+			.get-button a
+			{
+				padding: 15px 30px
+			}
+			/*_________________________footer-vedas_________________________________________-*/
+
+			.site-footer
+			{
+				padding: 30px 0  0;
+			}
+			.site-footer::before
+			{
+				background: none;
+			}
+			.footer-details-wrap
+			{
+				margin: 0 0 1.875rem;
+			}
+			.footer-details-wrap h3
+			{
+				margin: 0 0 1.6875rem;
+				display: block;
+			}
+			.footer-details-wrap p
+			{
+				margin: 0 0 1.5625rem;
+				font-size: 1rem
+			}
+			.footer-details-wrap .form-group
+			{
+				margin: 0px 0 3rem;
+			}
+			.footer-details-wrap .form-group input
+			{
+				padding: 15px 27px;
+			}
+			.site-info
+			{
+				text-align: center;
+				padding: 20px 0 0;
+				margin: 0;
+			}
+			.site-info p
+			{
+				padding: 0;
+			}
+			.site-info .social-icons
+			{
+				padding: 0;
+				float: none;
+			}
+
+
+	}

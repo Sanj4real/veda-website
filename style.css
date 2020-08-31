@@ -1,294 +1,311 @@
-@font-face{
-    font-family:'FontAwesome';
-    src:url('fonts/fontawesome-webfont.eot?v=4.7.0');
-    src:url('fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
-        url('fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
-        url('fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
-        url('fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
-        url('fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
-    font-weight:normal;
-    font-style:normal;
-}
-@font-face {
-  	font-family: 'AvenirLTStd-Roman';
-  src: url('fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),  
-  url('fonts/AvenirLTStd-Roman.otf')  format('opentype'),
-	     url('fonts/AvenirLTStd-Roman.woff') format('woff'), 
-	     url('fonts/AvenirLTStd-Roman.ttf')  format('truetype'), 
-	     url('fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face{
+	    font-family:'FontAwesome';
+	    src:url('fonts/fontawesome-webfont.eot?v=4.7.0');
+	    src:url('fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+	        url('fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+	        url('fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+	        url('fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+	        url('fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+	    font-weight:normal;
+	    font-style:normal;
+	}
+	@font-face {
+	  	font-family: 'AvenirLTStd-Roman';
+	  src: url('fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/AvenirLTStd-Roman.otf')  format('opentype'),
+		     url('fonts/AvenirLTStd-Roman.woff') format('woff'), 
+		     url('fonts/AvenirLTStd-Roman.ttf')  format('truetype'), 
+		     url('fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirLTStd-Book';
-  src: url('fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),  
-  		 url('fonts/AvenirLTStd-Book.otf')  format('opentype'),
-	     url('fonts/AvenirLTStd-Book.woff') format('woff'), 
-	     url('fonts/AvenirLTStd-Book.ttf')  format('truetype'), 
-	     url('fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg')  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirLTStd-Book';
+	  src: url('fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),  
+	  		 url('fonts/AvenirLTStd-Book.otf')  format('opentype'),
+		     url('fonts/AvenirLTStd-Book.woff') format('woff'), 
+		     url('fonts/AvenirLTStd-Book.ttf')  format('truetype'), 
+		     url('fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg')  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirLTStd-BookOblique';
-  src: url('fonts/AvenirLTStd-BookOblique.eot?#iefix') format('embedded-opentype'),  
-  	   url('fonts/AvenirLTStd-BookOblique.otf')  format('opentype'),
-	   url('fonts/AvenirLTStd-BookOblique.woff') format('woff'), 
-	   url('fonts/AvenirLTStd-BookOblique.ttf')  format('truetype'), 
-	   url('fonts/AvenirLTStd-BookOblique.svg#AvenirLTStd-BookOblique') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirLTStd-BookOblique';
+	  src: url('fonts/AvenirLTStd-BookOblique.eot?#iefix') format('embedded-opentype'),  
+	  	   url('fonts/AvenirLTStd-BookOblique.otf')  format('opentype'),
+		   url('fonts/AvenirLTStd-BookOblique.woff') format('woff'), 
+		   url('fonts/AvenirLTStd-BookOblique.ttf')  format('truetype'), 
+		   url('fonts/AvenirLTStd-BookOblique.svg#AvenirLTStd-BookOblique') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirLTStd-Light';
-  src: url('fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),  
-  url('fonts/AvenirLTStd-Light.otf')  format('opentype'),
-	     url('fonts/AvenirLTStd-Light.woff') format('woff'), 
-	     url('fonts/AvenirLTStd-Light.ttf')  format('truetype'), 
-	     url('fonts/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirLTStd-Light';
+	  src: url('fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/AvenirLTStd-Light.otf')  format('opentype'),
+		     url('fonts/AvenirLTStd-Light.woff') format('woff'), 
+		     url('fonts/AvenirLTStd-Light.ttf')  format('truetype'), 
+		     url('fonts/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirLTStd-LightOblique';
-  src: url('fonts/AvenirLTStd-LightOblique.eot?#iefix') format('embedded-opentype'),  
-  url('fonts/AvenirLTStd-LightOblique.otf')  format('opentype'),
-	     url('fonts/AvenirLTStd-LightOblique.woff') format('woff'), 
-	     url('fonts/AvenirLTStd-LightOblique.ttf')  format('truetype'), 
-	     url('fonts/AvenirLTStd-LightOblique.svg#AvenirLTStd-LightOblique') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirLTStd-LightOblique';
+	  src: url('fonts/AvenirLTStd-LightOblique.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/AvenirLTStd-LightOblique.otf')  format('opentype'),
+		     url('fonts/AvenirLTStd-LightOblique.woff') format('woff'), 
+		     url('fonts/AvenirLTStd-LightOblique.ttf')  format('truetype'), 
+		     url('fonts/AvenirLTStd-LightOblique.svg#AvenirLTStd-LightOblique') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirLTStd-Medium';
-  src: url('fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirLTStd-Medium.otf')  format('opentype'),
-	     url('fonts/AvenirLTStd-Medium.woff') format('woff'), url('fonts/AvenirLTStd-Medium.ttf')  format('truetype'), 
-	     url('fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirLTStd-Medium';
+	  src: url('fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirLTStd-Medium.otf')  format('opentype'),
+		     url('fonts/AvenirLTStd-Medium.woff') format('woff'), url('fonts/AvenirLTStd-Medium.ttf')  format('truetype'), 
+		     url('fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirLTStd-MediumOblique';
-  src: url('fonts/AvenirLTStd-MediumOblique.eot?#iefix') format('embedded-opentype'),  
-  url('fonts/AvenirLTStd-MediumOblique.otf')  format('opentype'),
-	     url('fonts/AvenirLTStd-MediumOblique.woff') format('woff'), url('fonts/AvenirLTStd-MediumOblique.ttf')  format('truetype'),
-	      url('fonts/AvenirLTStd-MediumOblique.svg#AvenirLTStd-MediumOblique') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirLTStd-MediumOblique';
+	  src: url('fonts/AvenirLTStd-MediumOblique.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/AvenirLTStd-MediumOblique.otf')  format('opentype'),
+		     url('fonts/AvenirLTStd-MediumOblique.woff') format('woff'), url('fonts/AvenirLTStd-MediumOblique.ttf')  format('truetype'),
+		      url('fonts/AvenirLTStd-MediumOblique.svg#AvenirLTStd-MediumOblique') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirLTStd-Oblique';
-  src: url('fonts/AvenirLTStd-Oblique.eot?#iefix') format('embedded-opentype'),  
-  url('fonts/AvenirLTStd-Oblique.otf')  format('opentype'),
-	     url('fonts/AvenirLTStd-Oblique.woff') format('woff'), 
-	     url('fonts/AvenirLTStd-Oblique.ttf')  format('truetype'), 
-	     url('fonts/AvenirLTStd-Oblique.svg#AvenirLTStd-Oblique') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirLTStd-Oblique';
+	  src: url('fonts/AvenirLTStd-Oblique.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/AvenirLTStd-Oblique.otf')  format('opentype'),
+		     url('fonts/AvenirLTStd-Oblique.woff') format('woff'), 
+		     url('fonts/AvenirLTStd-Oblique.ttf')  format('truetype'), 
+		     url('fonts/AvenirLTStd-Oblique.svg#AvenirLTStd-Oblique') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirNext-Bold';
-  src: url('fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),  
-  url('fonts/AvenirNext-Bold.woff') format('woff'),
-   url('fonts/AvenirNext-Bold.ttf')  format('truetype'), 
-   url('fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirNext-Bold';
+	  src: url('fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/AvenirNext-Bold.woff') format('woff'),
+	   url('fonts/AvenirNext-Bold.ttf')  format('truetype'), 
+	   url('fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirNextCyr-Bold';
-  src: url('fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), 
-   url('fonts/AvenirNextCyr-Bold.woff') format('woff'), 
-   url('fonts/AvenirNextCyr-Bold.ttf')  format('truetype'), 
-   url('fonts/AvenirNextCyr-Bold.svg#AvenirNextCyr-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirNextCyr-Bold';
+	  src: url('fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), 
+	   url('fonts/AvenirNextCyr-Bold.woff') format('woff'), 
+	   url('fonts/AvenirNextCyr-Bold.ttf')  format('truetype'), 
+	   url('fonts/AvenirNextCyr-Bold.svg#AvenirNextCyr-Bold') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirNextCyr-Demi';
-  src: url('fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),  
-  url('fonts/AvenirNextCyr-Demi.woff') format('woff'), 
-  url('fonts/AvenirNextCyr-Demi.ttf')  format('truetype'), 
-  url('fonts/AvenirNextCyr-Demi.svg#AvenirNextCyr-Demi') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirNextCyr-Demi';
+	  src: url('fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/AvenirNextCyr-Demi.woff') format('woff'), 
+	  url('fonts/AvenirNextCyr-Demi.ttf')  format('truetype'), 
+	  url('fonts/AvenirNextCyr-Demi.svg#AvenirNextCyr-Demi') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirNextCyr-Medium';
-  src: url('fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'),  
-  url('fonts/AvenirNextCyr-Medium.woff') format('woff'), 
-  url('fonts/AvenirNextCyr-Medium.ttf')  format('truetype'), url('fonts/AvenirNextCyr-Medium.svg#AvenirNextCyr-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirNextCyr-Medium';
+	  src: url('fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/AvenirNextCyr-Medium.woff') format('woff'), 
+	  url('fonts/AvenirNextCyr-Medium.ttf')  format('truetype'), url('fonts/AvenirNextCyr-Medium.svg#AvenirNextCyr-Medium') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirNextCyr-Regular';
-  src: url('fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),  
-  url('fonts/AvenirNextCyr-Regular.woff') format('woff'), 
-  url('fonts/AvenirNextCyr-Regular.ttf')  format('truetype'), 
-  url('fonts/AvenirNextCyr-Regular.svg#AvenirNextCyr-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirNextCyr-Regular';
+	  src: url('fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/AvenirNextCyr-Regular.woff') format('woff'), 
+	  url('fonts/AvenirNextCyr-Regular.ttf')  format('truetype'), 
+	  url('fonts/AvenirNextCyr-Regular.svg#AvenirNextCyr-Regular') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-@font-face {
-  font-family: 'AvenirNext-DemiBold';
-  src: url('fonts/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirNext-DemiBold.woff') format('woff'), url('fonts/AvenirNext-DemiBold.ttf')  format('truetype'), url('fonts/AvenirNext-DemiBold.svg#AvenirNext-DemiBold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'AvenirNext-DemiBold';
+	  src: url('fonts/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirNext-DemiBold.woff') format('woff'), url('fonts/AvenirNext-DemiBold.ttf')  format('truetype'), url('fonts/AvenirNext-DemiBold.svg#AvenirNext-DemiBold') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
+	body
+	{
+	    font-family:'AvenirLTStd-Roman','Helvetica Nue','Helvetica',Arial,sans-serif;
+	    font-size: 16px;
+	    font-weight: normal;
+	    background: #fff;
+	    line-height: 1.4em;
 
+	}
+	a
+	{
+		text-decoration: none;
+		color: #233d63;
+		transition: all .4s ease;
+		-webkit-transition:all 0.4s ease;
+		-moz-transition:all 0.4s ease;
+		-ms-transition:all 0.4s ease;
+		-o-transition:all 0.4s ease;
+	}
+	a:hover
+	{
+	    text-decoration:none ;
+	    outline: none;
+	}
+	h1,h2,h3,h4,h5,h6
+	{
+		font-weight: normal;
+		letter-spacing: .25px ;
+	}
+	h1,h2,h3
+	{
+		color: #233d63 ;
 
-
-
-
-body
-{
-    font-family:'AvenirLTStd-Roman','Helvetica Nue','Helvetica',Arial,sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    background: #fff;
-    line-height: 1.4em;
-
-}
-a
-{
-	text-decoration: none;
-	color: #fff;
-	transition: all .4s ease;
-	-webkit-transition:all 0.4s ease;
-	-moz-transition:all 0.4s ease;
-	-ms-transition:all 0.4s ease;
-	-o-transition:all 0.4s ease;
-}
-a:hover
-{
-    text-decoration:none ;
-    outline: none;
-}
-h1,h2,h3,h4,h5,h6
-{
-	font-weight: normal;
-	letter-spacing: .25px ;
-}
-h1,h2,h3
-{
-	color: #233d63 ;
-
-}
-h1
-{
-	font-family: 'AvenirNextCyr-Bold';	
-	font-size: 42px ;
-}
-h2
-{
-	font-size: 33px ;
-	font-weight: 600 ;
-}
-h3
-{
-	font-size: 21px ;
-	font-weight: 600 
-}
-h4
-{
-	font-family: 'AvenirNextCyr-Medium' ;
-	font-size: 20px ;
-	font-weight: normal ;
-	color: #ffaf30;
-}
-p
-{
-	line-height: 1.8em ;
-	font-size: 16px ;
-    color: #64697a ;
-	letter-spacing: .5px;
-}
-li
-{
-	list-style: none;
-}
-.fa
-{
-	display: inline-block;
-	font-size: 20px !important;
-}
-
-.product-img
-{
-	height: 95px ;
-}
-
+	}
+	h1
+	{
+		font-family: 'AvenirNextCyr-Bold';	
+		font-size: 42px ;
+	}
+	h2
+	{
+		font-size: 33px ;
+		font-weight: 600 ;
+		font-family: 'AvenirNextCyr-Bold'
+	}
+	h3
+	{
+		font-size: 22px ;
+		font-weight: 600 ;
+		text-transform: capitalize;
+		font-family: 'AvenirNextCyr-Medium'
+	}
+	h4
+	{
+		font-family: 'AvenirNextCyr-Demi' ;
+		font-size: 20px ;
+		font-weight: normal ;
+		color: #ffaf30;
+	}
+	h5
+	{
+		font-family: 'AvenirNextCyr-Medium' ;
+		font-size: 18px ;
+		font-weight: normal ;
+		color: #233d63
+	}
+	p
+	{
+		line-height: 1.8em ;
+		font-size: 16px ;
+	    color: #64697a ;
+		letter-spacing: .5px;
+	}
+	li
+	{
+		list-style: none;
+	}
+	.fa
+	{
+		display: inline-block;
+		font-size: 20px !important;
+	}
+	.div-2
+	{
+		padding: 0px 45px
+	}
+	.product-img
+	{
+		height: 95px ;
+	}
 /*__________________________header______________________*/
-.site-header
-{
-	height: 100vh;
-	width: 100%;
-	position: relative;
-}
-.navbar-nav
-{
-	z-index: 9999;
-}
-
-.navbar .nav-item
-{		
-	padding:0 10px;	
-}
-.navbar .nav-item .nav-link
-{
-	font-family: 'AvenirNextCyr-Demi';
-	font-size: 16px;
-	color: #fff !important;
-	text-transform: capitalize;
-	letter-spacing: .5px;
-	float: right;
-	text-align: left;
-}
-.navbar .nav-item:last-child .nav-link{
-	color: #fff;
-	padding: 6px 31px;
-	border: 2px solid #fff;
-	border-radius: 24px;
-}
-.fa-bars
-{
-	color: #fff;
-	font-size: 30px !important;
-}
-.navbar-toggler
-{
-	outline: none !important;
-}
-
+	.site-header
+	{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 999;
+	}
+	.navbar .nav-item
+	{		
+		padding:0 10px;	
+	}
+	.navbar .nav-item .nav-link
+	{
+		font-family: 'AvenirNextCyr-Demi';
+		font-size: 16px;
+		color: #fff;
+		text-transform: capitalize;
+		letter-spacing: .5px;
+		float: right;
+		text-align: left;
+	}
+	.navbar .nav-item:last-child .nav-link{
+		color: #fff;
+		padding: 6px 31px;
+		border: 2px solid #fff;
+		border-radius: 24px;
+	}
+	.navbar .navbar-brand img
+	{
+		width: 100px
+	}
+	.fa-bars
+	{
+		color: #fff;
+		font-size: 30px !important;
+	}
+	.navbar-toggler
+	{
+		outline: none !important;
+	}
 /*___________________________________homeBanner___________________________________*/
-
 	.homeBanner
 	{
-		padding-top: 10%;
+		position: relative;
+		height: auto;
 	}
 	.banner-curve
 	{
 		background-image: url('img/banner-curve.png'),linear-gradient(to right,#ed4554,#5400ff);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
-		height: 78%;
-		width: 60%;
+		height: 81%;
+		width: 67%;
 		position: absolute;
 		top: 0;
 		right: 0;
+	}
+	.banner-content
+	{
+		padding: 13rem 0 0;
+	}
+	.banner-content img
+	{
+		max-width: 40rem;
+		margin-top: -155px;
+		margin-left: -110px;
 	}
 	.homeBanner .slider-content h1
 	{
@@ -296,7 +313,6 @@ li
 		font-weight: 600;
 		line-height: 51px;
 		width: 478px;
-
 	}
 	.homeBanner .slider-content p
 	{
@@ -311,7 +327,6 @@ li
 		color: #fff;
 		font-size: 0.9rem
 	}
-
 	.homeBanner .slider-button .btn-first
 	{
 		background: #ed4554 !important;
@@ -319,23 +334,21 @@ li
 		border-radius: 24px;
 		padding: 14px 27px !important;
 		margin-right: 20px;
-		box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)
+		box-shadow: 0 10px 60px 0 rgba(39,51,75,0.25)
 	}
 	.homeBanner .slider-button .btn-second
 	{
 		color: #ed4554;
 		background: transparent;
 	}
-
 	.fa-arrow-right
 	{
 		color: #ed4554;
 		font-size: 30px;
-
 	}
-	.homeBanner .sec-vertical-breadcrumb
+	.homeBanner .sec-vertical-scroll-top
 	{
-		position: absolute;
+		position: fixed;
 		right: 130px;
 		bottom:  39px;
 		width: 10px;
@@ -343,8 +356,9 @@ li
 		-webkit-transform: rotate(-90deg);
 		-moz-transform: rotate(-90deg);
 		white-space: nowrap;
+		z-index: 99;
 	}
-	.sec-vertical-breadcrumb .breadcrumb
+	.sec-vertical-scroll-top .scroll-top
 	{
 		margin: 0;
 		padding: 0;
@@ -352,7 +366,7 @@ li
 		display: inherit;
 		background: none;
 	}
-	.sec-vertical-breadcrumb .breadcrumb li
+	.sec-vertical-scroll-top .scroll-top li
 	{
 		display: inline-block;
 		line-height: initial;
@@ -362,7 +376,7 @@ li
 		font-family: 'AvenirNextCyr-Bold';
 		letter-spacing: 0.6px;
 	}
-	.sec-vertical-breadcrumb .breadcrumb li::before
+	.sec-vertical-scroll-top .scroll-top li::before
 	{
 		content: '';
 		position: absolute;
@@ -372,31 +386,35 @@ li
 		border-left: 2px solid #64697a;
 		transform: rotate(-90deg);
 	}
-
-	/*___________________________Client-vedas___________________________*/
-
+/*___________________________Client-vedas___________________________*/
 	#client-vedas
 	{
 		height: auto;
 		width: 100%;
 		padding: 80px 0 50px;
 	}
+	.client-vedas h3
+	{
+		font-weight: 600;
+		font-family: 'AvenirNextCyr-Demi'
+	}
 	.client-block
 	{
 		margin-top: 2.5rem;
 	}
-	.client-block .container
+	.client-block 
 	{
 		display: flex;
 		justify-content: space-around;
+		flex-wrap: wrap;
 
 	}
-	.client-block .container .client-class
+	.client-block .client-class
 	{
 		padding: 35px 0 10px;
 		width: 19%;
 	}
-	.client-block img
+	.client-block .client-class img
 	{
 		height: 80px;
 		width: 80px;
@@ -406,58 +424,83 @@ li
 		width: 103px;
 	}
 
-	.client-details-block h3
-	{
-		font-weight: 600;
-	}
 	.client-block .client-class p
 	{
 		margin-top: 15px;
+		font-family: 'AvenirNextCyr-Medium';
+		font-size: 14px
 	}
 /*_____________________________products-vedas_______________________________________*/
 
 	#products-vedas
 	{
-		height: auto;
 		width: 100%;
-		padding: 30px 0 80px;
+		padding: 30px 0 50px;
+		position: relative;
 	}
-	.product-details-block h4
+	.product-vedas::before
+	{
+		content: '';
+		position: absolute;
+		top: -9rem;
+		left: -12px;
+		background: url('img/product-bg.png') no-repeat center center;
+		background-size: cover;
+		height: 28rem;
+		width: 10rem
+	}
+	.product-vedas h4
 	{
 		margin: 13px auto;
 	}
-	.product-details-block h3
+	.product-vedas h3
 	{
 		text-align: justify;
 	}
-
 	.switch-button
 	{
-		margin: 55px 0;
+		margin-top: 55px ;
 	}
-	.switch-button a
-	{
-		margin: 10px 24px;
-		font-weight: 600;
-		color: #ccc ;
-		cursor: pointer;
-	}
-	.switch-button a:nth-child(1)
+	.switch-button ul li a
 	{
 		padding: 16px 40px;
 		border: 1px solid #fff;
 		border-radius: 24px;
-		box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
-		color: #007bff;
+		font-weight: 600;
+		color: #a2afcd ;
+		font-size: 15px;
 	}
-	.tab
+	.switch-button .tab-content
 	{
-		border: 2px solid #ccc;
-		margin: 0px 298px 0 318px;
-		padding: 28px 5px;
+		border-top: none;
+		margin-top: 147px;
+	}
+	.switch-button .tab-content .tab-pane p
+	{
+		padding: 15px 20px;
+		margin: 0
+	}
+	.switch-button ul li .active
+	{
+		padding: 16px 40px;
+		border: 1px solid #fff;
 		border-radius: 24px;
-		position: relative;
-		bottom: 96px;
+		box-shadow: 0 13px 30px 0 rgba(40,54,73,0.25);
+		color: #326ede !important;
+		border-color: transparent !important;
+		font-size: 15px;
+		font-weight: 600 !important;
+	}
+	.nav-tabs
+	{
+		border: 1px solid #ccc;
+		border-radius: 24px;
+		padding: 2px 5px;
+		margin: 0 18.7rem;
+	}
+	.nav-tabs .nav-link
+	{
+		border-radius: 24px;
 	}
 	.product-icon
 	{
@@ -473,100 +516,114 @@ li
 	{
 		text-align: justify;
 		padding: 12px 14px;
-		/*font-family: 'AvenirLTStd-Roman';*/
+		font-family: 'AvenirLTStd-Roman'
 	}
-
 /*_______________________________feature-vedas__________________________________*/
+	.feature-vedas
+	{
+		padding: 50px 0 50px;
+		position: relative;
+	}
+	.feature-vedas::before
+	{
+		content: '';
+		position: absolute;
+		top: 13rem;
+		left: 0;
+		background: url('img/features-bg.png') no-repeat center center;
+		background-size: cover;
+		height: 30rem;
+		width: 8rem
+	}
+	.feature-vedas .group-1
+	{
+		padding: 10px 45px;
+		margin-top: 9rem;
+	}
+	.feature-vedas .group-1>i
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		width: 70px;
+		height: 70px;
+		font-weight: normal;
+		border-radius: 40px 40px 10px 40px ;
+		background: linear-gradient(to right,#ed4554,#ffaf30);
+		font-size: 46px !important;
+		box-shadow: 0px 10px 40px 0px rgba(27,32,39,.18);
+	}
+	.feature-vedas .group-1 p
+	{
+		padding: 10px 20px 10px 0px;
+		margin: 12px 40px 12px 0px;
+		font-family: 'AvenirLTStd-Roman'
+	}
+	.explore a
+	{
+		font-family: 'AvenirNextCyr-Demi';
+		color: #ffaf30;
+		font-weight: normal;
+		text-transform: capitalize;
+		letter-spacing: .25px;
+		font-size: 16px;
+		float: left;
+	}
+	.explore a i
+	{
+		color: #ffaf30;
+		font-size: 23px ;
+		font-weight: normal;
+	}
+	.feature-vedas .group-2
+	{
+		height: auto;
+		width: 100%;
+		text-align: center;
+	}
+	.feature-vedas .group-2 .col-lg-5
+	{
+		padding: 40px 15px 28px;
+		margin: 10px 12px;
+		transition: .3s;
+		box-shadow: 0px 10px 60px 0 rgba(40,54,73,0.1);
+		border-radius: 24px;
+	}
+	.feature-vedas .group-2 .col-lg-5 p
+	{
+		font-family: 'AvenirNextCyr-Regular';
+		font-size: 15px;
 
-.feature-vedas
-{
-	height: auto;
-	width: 100%;
-	padding: 50px 0 50px;
-	margin-top: 30px;
-}
-.feature-vedas .group-1
-{
-	padding: 10px 45px;
-	margin-top: 9rem;
-}
-.feature-details-block h4
-{
-	margin: 20px 0 18px;
-}
-.feature-details-block h2
-{
-	padding: 10px 0px;
-}
-
-.feature-img
-{
-	height: 70px ; 
-}
-.feature-details-block .group-1 p
-{
-	padding: 10px 20px 10px 0px;
-	margin: 12px 40px 12px 0px;
-}
-.explore a
-{
-	font-family: 'AvenirNextCyr-Demi';
-	color: #ffaf30;
-	font-weight: normal;
-	text-transform: capitalize;
-	letter-spacing: .25px;
-	font-size: 18px;
-}
-.explore a i
-{
-	color: #ffaf30;
-	font-size: 23px ;
-	font-weight: normal;
-}
-.feature-vedas .group-2
-{
-	height: auto;
-	width: 100%;
-	text-align: center;
-}
-.feature-vedas .group-2 .col-lg-5
-{
-	padding: 40px 15px 28px;
-	margin: 10px 12px;
-	transition: .3s;
-	box-shadow: 0px 0px 18px 0 rgba(0,0,0,0.3);
-	border-radius: 24px;
-	cursor: pointer;
-}
-.group-2 h3
-{
-	font-size: 1.1rem;
-	font-weight: 600;
-	margin: 20px 0 15px;
-	word-spacing: 4px;
-	line-height: 1.2;
-}
-.group-2 img
-{
-	height: 48px
-}
-.feature-vedas .group-2 .feature-div
-{
-	position: relative;
-	top: 90px;
-}
-.feature-vedas .group-2 .col-lg-5:nth-child(4)
-{
-	background: #326ede;
-	color: #fff;
-}
-.feature-vedas .group-2 .col-lg-5:nth-child(4) h3,
-.feature-vedas .group-2 .col-lg-5:nth-child(4) p
-{
-	color: #fff
-}
-
-
+	}
+	.group-2 h3
+	{
+		font-family: 'AvenirNextCyr-Demi';
+		font-size: 18px;
+		font-weight: 600;
+		margin: 20px 0 15px;
+		word-spacing: 4px;
+		line-height: 1.2;
+	}
+	.group-2 img
+	{
+		height: 48px
+	}
+	.feature-vedas .group-2 .feature-div
+	{
+		position: relative;
+		top: 90px;
+	}
+	.feature-vedas .group-2 .col-lg-5:nth-child(4)
+	{
+		background: #326ede;
+		color: #fff;
+	}
+	.feature-vedas .group-2 .col-lg-5:nth-child(4) h3,
+	.feature-vedas .group-2 .col-lg-5:nth-child(4) p
+	{
+		color: #fff
+	}
 /*__________________________________trusted-vedas____________________________*/
 	.trusted-vedas
 	{
@@ -579,7 +636,7 @@ li
 		color: #ffaf30;
 		font-size: 20px;
 	}
-	.trusted-detail-block
+	.trusted-vedas .container
 	{
 		margin-top: 6rem;
 	}
@@ -591,25 +648,26 @@ li
 		width: 582px;
 	}
 	.e-learning-vedas .learning-img,
-	.trusted-detail-block .trusted-img
+	.trusted-vedas .trusted-img
 	{
 		height: 70px ;
 	}
-	.trusted-detail-block h4,.e-learning-detail-block h4 
+	.feature-vedas .group-1 h4,.trusted-vedas h4,.e-learning-vedas h4,.video-vedas h4,.case-vedas h4,.testimonial-vedas h4,.faq-vedas h4
 	{
 		margin: 20px 0 18px;
 	}
-	.trusted-detail-block h2,.e-learning-detail-block h2
+	.feature-vedas .group-1 h2,.trusted-vedas h2,.e-learning-vedas h2,.video-vedas h2,.case-vedas h2,.testimonial-vedas h2
 	{
 		padding: 10px 0px;
 		margin: 0px;
 	}
-	.trusted-vedas>.trusted-detail-block>.container>.row>.col-lg-6>p
+	.trusted-vedas .container .row .col-lg-6>p
 	{
 		padding: 6px 0px;
 		margin: 3px 0px;
+
 	}
-	.trusted-vedas>.trusted-detail-block>.container>.row>.col-lg-6>.row
+	.trusted-vedas .container .row .col-lg-6>.row
 	{
 		margin: 10px 8px;
 	}
@@ -622,15 +680,23 @@ li
 	.trusted-content p
 	{
 		margin: 0px;
+		font-family: 'AvenirLTStd-Roman'
 	}
-
-	/*___________________________________e-learning-vedas_____________________________*/
+/*___________________________________e-learning-vedas_____________________________*/
 
 	.e-learning-vedas
 	{
 		height: auto;
 		width: 100%;
 		padding: 50px 30px;
+	}
+	.e-learning-vedas .group-1
+	{
+		padding: 10px 45px;
+	}
+	.e-learning-vedas .group-1>img
+	{
+		height: 70px;
 	}
 	.e-learning-vedas i
 	{
@@ -642,12 +708,13 @@ li
 		height: 46px;
 		border-radius: 100%;
 		background: #ffaf30;
-		box-shadow: 0px 0px 18px 0 rgba(0,0,0,0.3);
+		box-shadow: 0px 10px 60px 0 rgba(39,51,75,0.25);
 	}
 	.e-learning-vedas p
 	{
 		padding: 10px 20px 10px 0px;
-		margin: 12px 40px 30px 0px
+		margin: 12px 40px 30px 0px;
+		font-family: 'AvenirLTStd-Roman';
 	}
 	.e-learning-vedas figure img
 	{
@@ -655,6 +722,502 @@ li
 		right: -117px;
 		width: 680px;
 	}
+/*______________________videos-vedas__________________________________*/
+
+	.video-vedas
+	{
+		position: relative;
+		height: auto;
+		width: 100%;
+		padding: 50px 0 30px;
+	}
+	.video-vedas i
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		width: 46px;
+		height: 46px;
+		border-radius: 100%;
+		background: #ffaf30;
+		box-shadow: 0px 0px 18px 0 rgba(0,0,0,0.3);
+	}
 
 
+	.video-vedas p
+	{
+		padding: 6px 0;
+		margin: 3px 0 30px;
+		font-family: 'AvenirLTStd-Roman'
+	}
+	.video-vedas figure img
+	{
+		position: absolute;
+		top: 25px;
+		left: -130px;
+		width: 582px;
+	}
+	.video-vedas .div-2>i
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		width: 70px;
+		height: 70px;
+		font-weight: normal;
+		border-radius: 40px 40px 10px 40px ;
+		background: linear-gradient(to right,#a8cb31,#f1e01d);
+		font-size: 46px !important;
+		box-shadow: 0px 10px 40px 0px rgba(27,32,39,.18);
+	}
+/*________________________________case-studies_____________________________*/
 
+	.case-vedas
+	{
+		height: auto;
+		width: 100%;
+		padding: 80px 0 50px;
+		text-align: center;
+	}
+	.case-vedas .container
+	{
+		margin-bottom: 3.5rem
+	}
+	.case-vedas>.container>i
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		width: 70px;
+		height: 70px;
+		border-radius: 40px 40px 10px 40px ;
+		background: linear-gradient(to right,#ffaf30,#fb16c2);
+		font-size: 46px !important;
+		margin: 0px auto;
+		box-shadow: 0px 10px 40px 0px rgba(27,32,39,.18);
+	}
+	.case-info
+	{
+		height: auto;
+		width: 100%;
+		text-align: center;
+	}
+	.case-info 
+	{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.case-info .case-div
+	{
+		padding: 40px 10px;
+		border-radius: 20px;
+		box-shadow: 0 60px 45px 0 rgba(0,0,0,0.1);
+		width: 27%;
+	}
+	.case-div .explore a
+	{
+		margin: 0 .8rem
+	}
+	.case-info img
+	{
+		height: 145px;
+		width: 250px;
+	}
+	.case-div p
+	{
+		margin: 1.5rem .8rem;
+		color: #253d5f;
+		font-weight: 600;
+		text-align: justify;
+	}
+	.case-vedas>.case-info>.container>.case-div>.explore
+	{
+		padding: 0px .8rem;
+	}
+/*____________________________testimonial______________________________*/
+
+	.testimonial-vedas
+	{
+
+		padding: 80px 0 50px;
+		background: url('img/testimonial-profile.png')no-repeat center center;
+		background-size: cover;
+		position: relative;
+		text-align: center;
+	}
+	.testimonial-vedas::before
+	{
+		content: '';
+		position: absolute;
+		top: 39rem;
+		left: -58px;
+		background: url('img/testimonial-box.png') no-repeat center center;
+		background-size: cover;
+		height: 13rem;
+		width: 11rem
+	}
+	.testimonial-vedas img
+	{
+		height: 70px
+	}
+	.testimonial-details-wrap {
+	    padding: 0 18rem;
+	    margin-top: 99px;
+	}
+	.feedback-content
+	{
+		padding: 1.9rem 2rem 1.1rem;
+		box-shadow: 0px 30px 60px 0 rgba(18,57,115,.09);
+		background:#fff;
+		position: relative;
+
+	}
+	.feedback-content::before
+	{
+		content: '';
+		position: absolute;
+		bottom: -15px;
+		left: 2.5%;
+		height: 100%;
+		width: 95%;
+		box-shadow: 0px 30px 60px 0 rgba(18,57,115,.09);
+		z-index: -1;
+		background: #fff;
+	}
+	.feedback-content::after
+	{
+		content: '';
+		position: absolute;
+		bottom: -30px;
+		height: 100%;
+		width: 90%;
+		box-shadow: 0px 30px 60px 0 rgba(18,57,115,.09);
+		left: 5%;
+		z-index: -2;
+	}
+	.feedback-content i:nth-child(1)
+	{
+		font-size: 40px !important;
+		color: #ccc;
+		float: left;
+	}
+	.feedback-content .feedback-icon
+	{
+		font-size: 40px !important;
+		color: #ccc;
+		float: right;
+	}
+	.feedback-content p
+	{
+		padding: 40px .5rem;
+		margin: 0;
+		font-style: italic;
+		text-align: justify;
+		font-family: 'AvenirLTStd-LightOblique'
+	}
+	.feedback-content h3
+	{
+		padding: 0;
+		margin: 0;
+	}
+	.feedback-content h4
+	{
+		margin: 10px 0;
+		font-size: 16px;
+		font-family: 'AvenirNextCyr-Regular'
+	}
+	.feedback-slider
+	{
+		padding: 20px 5px 21px
+	}
+		
+
+
+/*______________________FAQ________________________________*/
+
+	.faq-vedas
+	{
+		height: auto;
+		position: relative;
+		padding: 80px 0 50px;
+		text-align: center;
+	}
+	.faq-vedas::before
+	{
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		background: url('img/faq-bg.png')no-repeat;
+		background-size: cover;
+		height: 100%;
+		width: 14%;
+	}
+
+	.faq-vedas>i
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		width: 70px;
+		height: 70px;
+		border-radius: 40px 40px 10px 40px ;
+		background: linear-gradient(to right,#91d344,#1df1bd);
+		font-size: 46px !important;
+		margin: 0px auto;
+		box-shadow: 0px 10px 40px 0px rgba(27,32,39,.18);
+
+	}
+	.faq-vedas h5
+	{
+		margin-bottom: 5rem;
+	}
+	.faq-vedas h5 a
+	{
+		font-weight: 600;
+		text-decoration: underline;
+	}
+	.faq-accordion 
+	{
+		box-shadow: 0 5px 25px 0 rgba(32,78,141,0.08);
+		padding: 25px 20px 24px;
+		margin-bottom: 30px;
+		text-align: left;
+		background: #fff;
+	}
+	
+	.faq-accordion a
+	{
+		font-size: 20px;
+		font-family: 'AvenirNextCyr-Medium';
+		color: #233d63!important;
+		text-decoration: none !important;
+		background: none;
+		border: none;
+		line-height: 1.4em;
+		cursor: pointer;
+	}
+	.faq-body
+	{
+		margin-top: 25px		
+	}
+	.faq-accordion .faq-body p
+	{
+		text-align: justify;
+		color: #4e5051;
+		font-family: 'AvenirLTStd-Roman';
+	}
+	.faq-vedas>.container>a
+	{
+		
+		margin: 10rem auto 1px
+
+	}
+	.faq-vedas>.container>span>a>i
+	{
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		height: 42px;
+		width: 42px;
+		border-radius: 100%;
+		border: 2px solid #ed4554;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #ed4554;
+		animation: arrowBounce 2.5s infinite;
+		-webkit-animation: arrowBounce 2.5s infinite;
+		-moz-animation: arrowBounce 2.5s infinite;
+		-o-animation: arrowBounce 2.5s infinite;
+
+	}
+
+/*_______________________________get-started_____________________________________*/
+
+	.get-vedas
+	{
+		padding: 80px 0 50px;
+		position: relative;
+		height: auto;
+		background: #ed4554;
+		margin-top: 5rem;
+	}
+	.get-vedas::before
+	{
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: url('img/get-section.png') no-repeat center center;
+		background-size: cover;
+	}
+	.get-content h2
+	{
+		color: #fff;
+	}
+	.get-button
+	{
+		text-align: center;
+		margin: 51px 0 0 7rem;
+	}
+	.get-button a
+	{
+		font-size: 18px;
+		color: #ed4554;
+		background: #fff;
+		border-radius: 30px;
+		padding: 20px 60px;
+		text-transform: capitalize;
+	}
+
+/*______________________________________site-footer_________________________________*/
+	.site-footer
+	{
+		padding: 80px 0px 30px;
+		background: #191931;
+		position: relative;
+	}
+	.site-footer::before
+	{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 30rem;
+		background: url('img/footer-bg.png') center center no-repeat;
+		background-position: cover;
+	}
+	.footer-details-wrap
+	{
+		margin-top: 180px;
+	}
+	.footer-details-wrap h3 {
+	    color: #fff;
+	    margin: 0 0 32px;
+	    letter-spacing: 0;
+	    font-size: 22px;
+	}
+	.footer-details-wrap ul
+	{
+		margin: 0;
+		padding: 0
+	}
+
+	.footer-details-wrap ul li {
+	    display: block;
+	    list-style-type: none;
+	    margin: 0 0 12px;
+	}
+	.footer-details-wrap ul li  {
+	    color: #737f92
+	}
+
+	.footer-details-wrap ul li a {
+	    display: block;
+	    text-transform: capitalize;
+	    font-size: 17px;
+	    color: #737f92;
+	    font-family: 'AvenirLTStd-Roman';
+	    letter-spacing: 0.25px;
+	}
+
+	.footer-details-wrap ul li a:hover,.site-info p a:hover{
+	    color: #326ede;
+	}
+
+	.footer-details-wrap p {
+	    font-style: normal;
+	    font-family: 'AvenirLTStd-Roman';
+	    font-size: 17px;
+	    letter-spacing: 0.25px;
+	    margin: 0 0 30px;
+	}
+	.footer-details-wrap .form-group 
+	{
+		margin: 0 0 40px;
+	}
+	.footer-details-wrap .form-group input
+	{
+		padding: 10px 12px;
+		border-radius: 24px;
+		background: #393952;
+		color: #fff;
+		border: none;
+		font-family: 'AvenirLTStd-Roman'
+	}
+	.footer-details-wrap .form-group input::placeholder
+	{
+		font-size: 16px;
+		color: #8a8aa2;
+	}
+	.footer-details-wrap>a
+	{
+		font-size: 17px;
+		color: #fff;
+		background: linear-gradient(to right,#ed4570,#5400ff);
+		border-radius: 30px;
+		padding: 18px 41px;
+		text-transform: capitalize;
+		margin-top: 20px;
+	}
+
+	.site-info {
+	    margin-top: 129px;
+	}
+	
+	.site-info-detail
+	{
+		border-top: 1px solid #2d2d45;
+		padding: 1.5625rem 0;
+	}
+
+	.site-info p {
+	    float: left;
+	    margin: 0;
+	    color: #737f92;
+	    font-size: 16px;
+	    font-family: 'AvenirLTStd-Roman';
+	    padding: 9px 0 0 8px;
+	}
+
+	.site-info p a {
+	    color: #fff;
+	}
+
+
+	.site-info .social-icons {
+	    float: right;
+	    padding-right: 142px;
+	}
+
+	.social-icons ul li {
+	    list-style-type: none;
+	    display: inline-block;
+	    margin: 0 0 0 17px;
+	    vertical-align: middle;
+	}
+
+	.social-icons ul li a {
+	    display: block;
+	    height: 36px;
+	    width: 36px;
+	    text-align: center;
+	    line-height: 40px;
+	    color: #485153;
+	    font-size: 23px;
+	}
+
+	.social-icons ul li a:hover{
+	    color: #326ede; 
+	}
+			
+			

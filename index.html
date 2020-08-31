@@ -11,16 +11,22 @@
 	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<!-- owl-caroousel -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
 
 
 </head>
 <body>
-	<!-- header -->
+
 	<div class="site-header">
 		<nav class="navbar navbar-expand-lg navbar-dark ">
 			<div class="container-fluid p-1">
 					<a class="navbar-brand" href="#">
-						<img src="img/web-logo/veda-logo.png" class="w-50" alt="site-logo">
+						<img src="img/web-logo/veda-logo.png" alt="site-logo">
 					</a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				    <i class="fa fa-bars"></i>
@@ -52,13 +58,16 @@
 				  </div>
 			</div>
 		</nav>
-		<section class="homeBanner">
-			<div class="banner-curve"></div>
+	</div><!-- /header -->
+
+	<section class="homeBanner">
+		<div class="banner-curve"></div>
+		<div class="banner-content">
 			<div class="container">	
 				<div class="row">
 					<div class="col-md-6 col-sm-12 col-lg-6">
 						<div class="slider-content">
-							<h1>We help you	to get <br>best business solution ever.</h1>
+							<h1>We help you	to get best business solution ever.</h1>
 							<p>Véda (वेद) is a product to bridge the gap between parents/students and the educational organization (schools/colleges/universities).</p>
 							<div class="slider-button">
 								<a href="#" class="button btn-first">Request a Demo</a>
@@ -67,26 +76,22 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-6">
-						<!-- <img src="img/phone.png" alt="phone-img" class="img-fluid"> -->
+						<img src="img/phone.png" alt="phone-img" class="img-fluid">
 					</div>
 				</div>
-				<div class="sec-vertical-breadcrumb">
-					<ul class="breadcrumb">
+				<div class="sec-vertical-scroll-top">
+					<ul class="scroll-top">
 						<li>Scroll to top</li>
 					</ul>
 				</div>
 			</div>
-		</section> 
-	</div><!-- /header -->
-
-	<!-- client -->
+		</div>
+	</section> <!-- /home-banner -->
 
 	<section id="client-vedas">
-		<div class="container client-details-block text-center">
+		<div class="container  text-center">
 			<h3>We've already done for them.</h3>
-		</div>
-		<div class="client-block text-center">
-			<div class="container">
+			<div class="client-block">
 				<div class="client-class">
 					<img src="img/school-client-logo/excelsior.png" alt="img-client" class="img-fluid">
 					<p>The Excelsior School</p>
@@ -107,59 +112,127 @@
 					<img src="img/school-client-logo/st_xavier.png" alt="img-client" class="img-fluid">
 					<p>St Xavier's School</p>
 				</div>
-
 			</div>
 		</div>
 	</section><!-- /client -->
 	
-	<!-- products -->
-	<section id="products-vedas">
-		<div class="container product-details-block text-center">
+	<section id="products-vedas" class="product-vedas">
+		<div class="container text-center">
 			<img src="img/icon/product-icon.png" alt="products-icon" class="product-img img-fluid">
 			<h4>Products</h4>
 			<h2>What is inside the Box?</h2>
 			<div class="switch-button">
-				<a href="#">Web App</a>
-				<a href="#">Parent's App</a>
-				<a href="#">Teacher's App</a>
-			</div>
-			<div class="tab"></div>
-			<div class="row">
-				<div class="col-md-6 col-sm-12 col-lg-6">
-					<img src="img/mac-book.png" alt="mackbook" class="img-fluid">
-				</div>
-				<div class="col-md-6 col-sm-12 col-lg-6">
-					<h3>Fast & Secure dashboard to manage all the process <br>and information. Clean & Easy to learn user <br>interface.</h3>
-					<div class="row">
-						<div class="col-lg-2 col-3 product-icon">
-							<i class="fa fa-3x fa-check"></i>
-						</div>
-						<div class="col-lg-10 col-9 product-content">
-							<p>Capture everything you need for CCS submissions, no more connecting and drop outs, we submit for you; automatically.</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-2 col-3 product-icon">
-							<i class="fa fa-3x fa-check"></i>
-						</div>
-						<div class="col-lg-10 col-9 product-content">
-							<p>Child attendance reports compare expected vs actual attendance and help you spot early warning signs; live.</p>
-						</div>
-					</div>
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="nav-item">
+					   <a class="nav-link  active" href="#web-app" role="tab" data-toggle="tab" aria-selected="true">Web App</a>
+					</li>
+					 <li class="nav-item">
+					   <a class="nav-link" href="#parent-app" role="tab" data-toggle="tab">Parent's App</a>
+					 </li>
+					 <li class="nav-item">
+					   <a class="nav-link" href="#teacher-app" role="tab" data-toggle="tab">Teacher's App</a>
+					 </li>
+				</ul>
 
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="web-app">
+					  	<div class="container">
+					  		<div class="row">
+					  			<div class="col-md-6 col-sm-12 col-lg-6">
+					  				<img src="img/mac-book.png" alt="mackbook" class="img-fluid">
+					  			</div>
+					  			<div class="col-md-6 col-sm-12 col-lg-6 div-2">
+					  				<h3>Fast & Secure dashboard to manage all the process and information. Clean & Easy to learn user interface.</h3>
+					  				<div class="row">
+					  					<div class="col-lg-2 col-3 product-icon">
+					  						<i class="fa fa-3x fa-check"></i>
+					  					</div>
+					  					<div class="col-lg-10 col-9 product-content">
+					  						<p>Capture everything you need for CCS submissions, no more connecting and drop outs, we submit for you; automatically.</p>
+					  					</div>
+					  				</div>
+					  				<div class="row">
+					  					<div class="col-lg-2 col-3 product-icon">
+					  						<i class="fa fa-3x fa-check"></i>
+					  					</div>
+					  					<div class="col-lg-10 col-9 product-content">
+					  						<p>Child attendance reports compare expected vs actual attendance and help you spot early warning signs; live.</p>
+					  					</div>
+					  				</div>
+
+					  			</div>
+					  		</div>
+					  	</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="parent-app">
+					   <div class="container">
+   					  		<div class="row">
+   					  			<div class="col-md-6 col-sm-12 col-lg-6">
+   					  				<img src="img/parent's-app.png" alt="mackbook" class="img-fluid">
+   					  			</div>
+   					  			<div class="col-md-6 col-sm-12 col-lg-6 div-2">
+   					  				<h3>All the information about school & student at fingertips, helping parents to stay updated.  Information about their children; with one app.</h3>
+   					  				<div class="row">
+   					  					<div class="col-lg-2 col-3 product-icon">
+   					  						<i class="fa fa-3x fa-check"></i>
+   					  					</div>
+   					  					<div class="col-lg-10 col-9 product-content">
+   					  						<p>Build stronger parent communication, and keep parents up to date when they are on the go via one mobile app.</p>
+   					  					</div>
+   					  				</div>
+   					  				<div class="row">
+   					  					<div class="col-lg-2 col-3 product-icon">
+   					  						<i class="fa fa-3x fa-check"></i>
+   					  					</div>
+   					  					<div class="col-lg-10 col-9 product-content">
+   					  						<p>Increase occupancy and provide flexibility to parents with real time mobile bookings, updates and alerts.</p>
+   					  					</div>
+   					  				</div>
+
+   					  			</div>
+   					  		</div>
+   					   </div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="teacher-app">
+					   <div class="container">
+   					  		<div class="row">
+   					  			<div class="col-md-6 col-sm-12 col-lg-6">
+   					  				<img src="img/teacher's-app.png" alt="mackbook" class="img-fluid">
+   					  			</div>
+   					  			<div class="col-md-6 col-sm-12 col-lg-6 div-2">
+   					  				<h3>Helps to make daily school activities easier. Data retrieval, modification, entry and carrying out daily task right from mobile phones.</h3>
+   					  				<div class="row">
+   					  					<div class="col-lg-2 col-3 product-icon">
+   					  						<i class="fa fa-3x fa-check"></i>
+   					  					</div>
+   					  					<div class="col-lg-10 col-9 product-content">
+   					  						<p>Build stronger parent communication, and keep parents up to date when they are on the go via one mobile app.</p>
+   					  					</div>
+   					  				</div>
+   					  				<div class="row">
+   					  					<div class="col-lg-2 col-3 product-icon">
+   					  						<i class="fa fa-3x fa-check"></i>
+   					  					</div>
+   					  					<div class="col-lg-10 col-9 product-content">
+   					  						<p>Increase occupancy and provide flexibility to parents with real time mobile bookings, updates and alerts.</p>
+   					  					</div>
+   					  				</div>
+
+   					  			</div>
+   					  		</div>
+   					   </div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section><!---- /product ---->
 
-
-	<!-- feature -->
 	<section class="feature-vedas">
-		<div class="feature-details-block">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 group-1">
-						<img src="img/icon/feature-icon.png" alt="features-icon" class="feature-img img-fluid">
+						<i class="fa fa-cog" aria-hidden="true"></i>
 						<h4>Features</h4>
 						<h2>We offer a <br>complete range of <br>features.</h2>
 						<p>	Giving you a helping hand with observations, programming and planning, nappy checks, sleep checks and everything you need for compliance.</p>
@@ -170,22 +243,22 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 group-2">
 						<div class="row">
 							<div class="col-lg-5 col-md-5 col-offset-1 col-sm-12 feature-div">
-									<img src="img/1.png" alt="" class="img-fluid">
+								<img src="img/1.png" alt="" class="img-fluid">
 								<h3>Data Backup</h3>
 								<p>Data is backed in the cloud ensuring the data is never lost. </p>
 							</div>
 							<div class="col-lg-5 col-md-5 col-offset-1 col-sm-12">
-									<img src="img/2.png" alt="" class="img-fluid">
+								<img src="img/2.png" alt="" class="img-fluid">
 								<h3>Communication</h3>
 								<p>Helps parents to stay updated about their children activities.</p>
 							</div>
 							<div class="col-lg-5 col-md-5 col-offset-1 col-sm-12 feature-div">
-									<img src="img/3.png" alt="" class="img-fluid">
+								<img src="img/3.png" alt="" class="img-fluid">
 								<h3>Intuitive Dashboard</h3>
 								<p>Dashboard is really well organised with easy UX & UI.</p>
 							</div>
 							<div class="col-lg-5 col-md-5 col-offset-1 col-sm-12">
-									<img src="img/4.png" alt="" class="img-fluid">
+								<img src="img/4.png" alt="" class="img-fluid">
 								<h3>Extreme Security</h3>
 								<p>Helps parents to stay updated about their children activities.</p>
 							</div>
@@ -193,101 +266,333 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</section><!-- /feature -->
 
-
 	<section class="trusted-vedas">
-		<div class="trusted-detail-block">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<figure>
-							<img src="img/trusted-img.png" alt="trusted-img">
-						</figure>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<img src="img/icon/trusted-icon.png" alt="trusted-icon" class="trusted-img img-fluid">
-						<h4>Trusted</h4>
-						<h2>Why Véda should </br>be your School</br> ERP?.</h2>
-						<p>	A System to bridge the communication gap between Parents, Teachers & Schools. </p>
-						<div class="row">
-							<div class="col-lg-2 col-3 trusted-icon">
-								<i class="fa fa-3x fa-check"></i>
-							</div>
-							<div class="col-lg-10 col-9 trusted-content">
-								<p><strong>	99% client renewal </strong>rate for more than 5 years</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-2 col-3 trusted-icon">
-								<i class="fa fa-3x fa-check"></i>
-							</div>
-							<div class="col-lg-10 col-9 trusted-content">
-								<p>Market leader in <strong>5 major cities</strong> in Nepal</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-2 col-3 trusted-icon">
-								<i class="fa fa-3x fa-check"></i>
-							</div>
-							<div class="col-lg-10 col-9 trusted-content">
-								<p>
-									<strong>Best-in-class</strong> after sales service
-								</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-2 col-3 trusted-icon">
-								<i class="fa fa-3x fa-check"></i>
-							</div>
-							<div class="col-lg-10 col-9 trusted-content">
-								<p>
-									<strong>Up & Running</strong> within 10 days of contracted date
-								</p>
-							</div>
-						</div>
-					</div>
-
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<figure>			
+						<img src="img/trusted-img.png" alt="trusted-img">
+					</figure>
 				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 div-2">
+					<img src="img/icon/trusted-icon.png" alt="trusted-icon" class="trusted-img img-fluid">
+					<h4>Trusted</h4>
+					<h2>Why Véda should </br>be your School</br> ERP?.</h2>
+					<p>	A System to bridge the communication gap between Parents, Teachers & Schools. </p>
+					<div class="row">
+						<div class="col-lg-2 col-3 trusted-icon">
+							<i class="fa fa-3x fa-check"></i>
+						</div>
+						<div class="col-lg-10 col-9 trusted-content">
+							<p><strong>	99% client renewal </strong>rate for more than 5 years</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-3 trusted-icon">
+							<i class="fa fa-3x fa-check"></i>
+						</div>
+						<div class="col-lg-10 col-9 trusted-content">
+							<p>Market leader in <strong>5 major cities</strong> in Nepal</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-3 trusted-icon">
+							<i class="fa fa-3x fa-check"></i>
+						</div>
+						<div class="col-lg-10 col-9 trusted-content">
+							<p>
+								<strong>Best-in-class</strong> after sales service
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-3 trusted-icon">
+							<i class="fa fa-3x fa-check"></i>
+						</div>
+						<div class="col-lg-10 col-9 trusted-content">
+							<p>
+								<strong>Up & Running</strong> within 10 days of contracted date
+							</p>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section><!-- /trusted -->
 
-	
 	<section class="e-learning-vedas">
-		<div class="e-learning-detail-block">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<img src="img/icon/case-icon.png" alt="case-icon" class="learning-img img-fluid">
-						<h4>Digital Learning</h4>
-						<h2>Engage in Digital</br> Learning through</br> Véda </h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 group-1">
+					<img src="img/icon/case-icon.png" alt="case-icon" class="learning-img img-fluid">
+					<h4>Digital Learning</h4>
+					<h2>Engage in Digital</br> Learning through</br> Véda </h2>
+					<p>
+						Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa aute irure dolor in reprehenderit in voluptate velit esse cillum dolore nulla pariatur. 
+				   </p>
+				   <a href="#">
+				   	<i class="fa fa-arrow-right"></i>
+				   </a>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<figure>
+						<img src="img/e-learning-img.png" alt="e-learning-img">
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section><!-- /e-learning -->
+
+	<section class="video-vedas">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<figure>
+						<img src="img/video-image.png" alt="video-img" class="img-fluid">
+					</figure>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 div-2">
+						<i class="fa fa-play-circle-o" aria-hidden="true"></i>
+						<h4>Videos</h4>
+						<h2>Increase adoption</br> across your learning</br> community.</h2>
 						<p>
-							Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa aute irure dolor in reprehenderit in voluptate velit esse cillum dolore nulla pariatur. 
+							Giving you a helping hand with enrolments, digital attendance, CCS submission and everything you need for compliance. 
 					   </p>
 					   <a href="">
-					   	<i class="fa fa-arrow-right"></i>
+					   	<i class="fa fa-play-circle"></i>
+
 					   </a>
+				</div>
+			</div>
+		</div>
+	</section><!-- /video-vedas -->
+	
+	<section class="case-vedas">
+		<div class=" container text-center">
+			<i class="fa fa-telegram" aria-hidden="true"></i>
+			<h4>Case Studies</h4>
+			<h2>Delight users, get happier</br> customers & customers satisfaction</h2>
+			<div class="case-info">
+					<div class=" case-div">
+						<img src="img/online/cde-module.png" alt="cde-module" class="img-fluid">
+						<p>Your guide to working remotely in Slack</p>
+						<div class="explore">
+							<a href="#" class="button btn-second">Learn More &ensp;<i class="fa fa-arrow-right"></i></a>
+						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<figure>
-							<img src="img/e-learning-img.png" alt="e-learning-img">
-						</figure>
+					<div class="case-div">
+						<img src="img/online/online-payment.png" alt="cde-module" class="img-fluid">
+						<p>Your guide to working remotely in Slack</p>
+						<div class="explore">
+							<a href="#" class="button btn-second">Learn More &ensp;<i class="fa fa-arrow-right"></i></a>
+						</div>
+					</div>
+					<div class="case-div">
+						<img src="img/online/mobile.png" alt="cde-module" class="img-fluid">
+						<p>Your guide to working remotely in Slack</p>
+						<div class="explore">
+							<a href="#" class="button btn-second">Learn More &ensp;<i class="fa fa-arrow-right"></i></a>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section><!-- /case-vedas -->
+
+	<section class="testimonial-vedas">
+		<div class="container">
+			<img src="img/online/testominal-icon.png" alt="testimonial-icon" class="img-fluid">
+			<h4>Testimonial</h4>
+			<h3>Check testimonials for our satisfied clients</h3>
+			<div class=" testimonial-details-wrap">
+				<div class="feedback-content">
+					<div class="feedback-slider">
+						<i class="fa-3x fa fa-quote-left" ></i><br>	
+						<p class="feedback-detail">
+							Mobile Application of St. Xavier’s School has created a new excitement throughout our students, staff, and parents. It has allowed our school and community to stay connected and engaged through smart phone technology. We are getting a lot of positive response from parents.
+						</p>
+						<h3>Fr.Amrit Rai</h3>
+						<h4>Principal - St.Xavier’s School </h4>
+						<i class="fa-3x fa fa-quote-right feedback-icon" ></i>
+					</div>
+					<div class="feedback-slider">
+						<i class="fa-3x fa fa-quote-left" ></i> <br>
+						<p class="feedback-detail">
+							Mobile Application of St. Xavier’s School has created a new excitement throughout our students, staff, and parents. It has allowed our school and community to stay connected and engaged through smart phone technology. We are getting a lot of positive response from parents.
+						</p>
+						<h3>Fr.SANJAY Rai</h3>
+						<h4>Principal - St.Xavier’s School </h4>
+						<i class="fa-3x fa fa-quote-right feedback-icon" ></i>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</section><!-- /testimonial-vedas -->
+
+	<section class="faq-vedas ">
+		<i class="fa fa-question-circle-o"></i>
+		<h4>Frequently Asked Questions</h4>
+		<h5>Not the answers you were looking for? <a href="#">Send us an email</a></h5>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-6 col-sm-12">
+					<div class="faq-accordion"> 
+						<a class="button text-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          					At vero eos et accusamus et iusto odio ?
+        				</a>
+      				  	<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+     				 		<div class="faq-body px-3 mb-4">
+        						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+      						</div>
+    					</div>
+					</div>
+					<div class="faq-accordion"> 
+						<a class="button text-left" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          					Nor again is there anyone who loves or pursues or desires to obtain pain ?
+        				</a>
+      				  	<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+     				 		<div class="faq-body px-3 mb-4">
+        						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+      						</div>
+    					</div>
+					</div>
+					
+				</div>	
+				<div class="col-md-6 col-lg-6 col-sm-12">
+					<div class="faq-accordion"> 
+						<a class="button text-left" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+          					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium ?
+        				</a>
+      				  	<div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+     				 		<div class="faq-body px-3 mb-4">
+        						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      						</div>
+    					</div>
+					</div>
+					<div class="faq-accordion"> 
+						<a class="button text-left" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+          					Nemo enim ipsam voluptatem quia voluptas sit aspernatur ?
+        				</a>
+      				  	<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+     				 		<div class="faq-body px-3 mb-4">
+        						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      						</div>
+    					</div>
+					</div>
+				</div>
+			</div>	
+			<span><a href="" data-target="main-footer"><i class="fa fa-angle-down" aria-hidden="true"></i></a></span>
+		</div>
+	</section><!-- /faq-vedas -->
+
+	<section class="get-vedas">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12	">
+					<div class="get-content">
+						<h2>Ready to get started?</br>It’s efficient, user friendly and secure!</h2>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12	">
+					<div class="get-button">
+						<a href="#">
+							get started
+						</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section><!-- /get-vedas -->
+
+	<footer id="main-footer" class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-lg-3 col-sm-12">
+					<div class="footer-details-wrap">
+						<h3>Newsletter</h3>
+						<p>Don’t miss any updates of our latest business resources on the market.</p>
+						<div class="form-group">
+							<input type="email" name="email" class="form-control" placeholder="Enter your email">
+						</div>
+						<a href="">
+							Subscribe
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-lg-3 col-sm-12">
+					<div class="footer-details-wrap">
+						<h3>products</h3>
+						<ul>
+						    <li><a href="">Feature</a></li>
+						    <li><a href="">Clients</a></li>
+						    <li><a href="">About Us</a></li>
+						    <li><a href="">Blog</a></li>
+						    <li><a href="">Case Studies</a></li>
+						    <li><a href="">Veda CMS</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-lg-3 col-sm-12">
+					<div class="footer-details-wrap">
+						<h3>help</h3>
+						<ul>
+						    <li><a href="">FAQ</a></li>
+						    <li><a href="">Support</a></li>
+						    <li><a href="">Contact</a></li>
+						    <li><a href="">Terms & Conditions</a></li>
+						    <li><a href="">Privacy Policy</a></li>
+						</ul>	
+					</div>
+				</div>
+				<div class="col-md-3 col-lg-3 col-sm-12">
+					<div class="footer-details-wrap">
+						<h3>Company</h3>
+						<ul>
+						    <li><a href="">mail@ingrails.com</a></li>
+						    <li>+977 9849290363 <br>+977 9841169232 <br>+977 9813891651</li>
+						    <li><a href="">Dhobighat, Lalitpur, Nepal</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-
-
-	
-	
+		<div class="site-info">
+			<div class="site-info-detail">	
+				<div class="container">
+					<p>© 2020 Véda by <a href="">Ingrails.</a> All rights reserved.</p>
+					<div class="social-icons">
+						<ul>
+						    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+						    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+						    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+						    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 
 	<!-- js -->
 
 	<script src="js/jquery-3.5.1.min.js" ></script>
 	<script src="js/bootstrap.min.js" ></script>
+	<!-- owl-carousel -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+	<script>
+
+  		$(document).ready(function(){
+			$(".feedback-content").owlCarousel({
+				autoPlay: 3000, //Set AutoPlay to 3 seconds
+				 items : 1,
+				 rewindNav:true
+			});
+		});
+	</script>
 </body>
 </html>
