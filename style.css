@@ -985,10 +985,11 @@
 	.faq-accordion 
 	{
 		box-shadow: 0 5px 25px 0 rgba(32,78,141,0.08);
-		padding: 25px 20px 24px;
+		padding: 25px 45px 25px;
 		margin-bottom: 30px;
 		text-align: left;
 		background: #fff;
+		position: relative;
 	}
 	
 	.faq-accordion a
@@ -1001,7 +1002,36 @@
 		border: none;
 		line-height: 1.4em;
 		cursor: pointer;
+
 	}
+	.faq-accordion [data-toggle="collapse"]::after
+	{
+		content: "\2212";
+		position: absolute;
+		left: 10px;
+		top: 39px;
+	    font-size: 35px;
+	    float: right;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    
+	}
+	.faq-vedas .col-md-6:first-child .faq-accordion:first-child [data-toggle="collapse"]::after
+	{
+		top: 20px;
+	}
+
+	.faq-accordion [data-toggle="collapse"].collapsed::after
+	{
+		content: "\002B";
+		position: absolute;
+		left: 10px;
+	    font-size: 35px;
+
+	
+	}
+
 	.faq-body
 	{
 		margin-top: 25px		
